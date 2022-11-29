@@ -5,7 +5,7 @@ import org.apache.catalina.Context;
 import org.apache.catalina.Wrapper;
 import org.apache.catalina.startup.Tomcat;
 
-public class AppLuncher {
+public class AppLauncher {
 
     public static void main(String[] args) throws Exception {
         Tomcat tomcat = new Tomcat();
@@ -18,6 +18,6 @@ public class AppLuncher {
         servlet.setLoadOnStartup(1);
         servlet.addMapping("/*");
         tomcat.start();
-        System.out.println("init");
+        System.out.println("init...");
     }
 }
