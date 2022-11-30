@@ -19,4 +19,8 @@ to execute:
 - execute ```java -jar MyBank-1.0-SNAPSHOT.jar```
 - test with ```http://localhost:8090/health```
 
+## endpoints 
+- create: ```http://localhost:8090/create?amount=50&references=McDonalls&date=2022-10-29 03:13:10```j
+- list: ```http://localhost:8090/transactions```
+
 
